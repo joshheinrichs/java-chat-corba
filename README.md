@@ -1,6 +1,6 @@
-#java-corba-chat
+#java-chat-corba
 
-A simple chat system using Java and CORBA.
+A simple chat system using Java and CORBA. This was built quickly for an assignment and isn't expected to be updated at any point in the future, so there is no documentation or testing, and probably never will be.
 
 ### Setup
 
