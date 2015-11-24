@@ -1,0 +1,14 @@
+module conn
+{
+    interface Conn
+    {
+        string connect();
+        void sendMessage(in string token, in string message);
+        string receiveMessage(in string token);
+        void createChatRoom(in string token, in string name);
+        void listChatRooms(in string token);
+        void joinChatRoom(in string token, in string name);
+        void leaveChatRoom(in string token);
+        void changeName(in string token, in string name);
+    };
+};
